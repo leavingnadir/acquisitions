@@ -1,3 +1,21 @@
+## ⚙️Tech Stack
+
+This project uses a modern, production-ready stack including Node.js and Express.js for backend development, Neon PostgreSQL with Drizzle ORM for database management, and Zod for runtime data validation. Security is enhanced with Arcjet, while Docker and Kubernetes enable containerization and scalable deployments. Developer productivity is supported through tools like Warp Terminal, ESLint, Prettier, and Jest.
+
+## 🔋 Features
+
+- JWT-based authentication and role-based access control
+- Business listings and deal management system
+- PostgreSQL database with migrations using Drizzle ORM
+- Input validation using Zod
+- API protection with Arcjet
+- Structured logging with Winston
+- Health monitoring endpoint
+- Dockerized development and production environments
+- Hot reload for faster development
+- Automated testing with Jest and Supertest
+- Clean code architecture with absolute imports
+
 ## 🚀 Production API Setup Guide
 
 This guide helps you clone the repository, install dependencies, and set up the database for your production-ready API project.
