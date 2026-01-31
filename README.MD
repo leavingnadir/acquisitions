@@ -77,3 +77,4 @@ npm install cors cookie-parser
 npm i jsonwebtoken
 npm install zod
 npm install bcrypt
+npm i @arcjet/node @arcjet/inspect
