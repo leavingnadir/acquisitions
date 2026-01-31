@@ -5,7 +5,7 @@ This guide helps you clone the repository, install dependencies, and set up the 
 ## 📦 Install Required Dependencies
 
 1️⃣ Core Server & Environment Setup
-   
+
 - express → Web framework for building APIs
 - dotenv → Loads environment variables from .env file
 
@@ -37,6 +37,7 @@ npm install @neondatabase/serverless drizzle-orm
 4️⃣ Database Migration Tool (Dev Only)
 
 - drizzle-kit → CLI tool for generating and running database migrations
+
 ```
 npm install -D drizzle-kit
 ```
@@ -44,11 +45,13 @@ npm install -D drizzle-kit
 5️⃣ Generate Database Schema
 
 Generates migration files based on your Drizzle ORM schema
+
 ```
-npm run db:generate 
+npm run db:generate
 ```
 
 6️⃣ Apply Database Migrations
+
 ```
 npm run db:migrate
 ```
@@ -59,16 +62,18 @@ npm run db:migrate
 - helmet → Adds security headers to protect your API
 - morgan → HTTP request logger for debugging and monitoring
 
-
 ```
 npm i winston
 ```
+
 ```
 npm i helmet
 ```
+
 ```
 npm install morgan
 ```
+
 ```
 npm install cors cookie-parser
 ```
@@ -82,9 +87,11 @@ npm install cors cookie-parser
 ```
 npm i jsonwebtoken
 ```
+
 ```
 npm install zod
 ```
+
 ```
 npm install bcrypt
 ```
@@ -107,12 +114,15 @@ npm i @arcjet/node @arcjet/inspect
 ```
 npm install --save-dev jest
 ```
+
 ```
 npm install -D cross-env
 ```
+
 ```
 npm install supertest --save-dev
 ```
+
 ```
 npm init jest@latest
 ```
