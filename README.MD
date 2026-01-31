@@ -73,12 +73,46 @@ npm install morgan
 npm install cors cookie-parser
 ```
 
+8️⃣ Authentication & Validation
 
+- jsonwebtoken → Creates and verifies JWT tokens
+- bcrypt → Hashes passwords securely
+- zod → Schema validation for inputs and responses
+
+```
 npm i jsonwebtoken
+```
+```
 npm install zod
+```
+```
 npm install bcrypt
+```
+
+9️⃣ API Protection & Security Monitoring
+
+- @arcjet/node → API protection, rate limiting, and abuse detection
+- @arcjet/inspect → Debug and inspect Arcjet decisions
+
+```
 npm i @arcjet/node @arcjet/inspect
+```
+
+🔟 Testing Setup (Development Only)
+
+- Jest → JavaScript testing framework
+- Supertest → HTTP assertions for API testing
+- cross-env → Cross-platform environment variable support (Windows/macOS/Linux)
+
+```
 npm install --save-dev jest
+```
+```
 npm install -D cross-env
+```
+```
 npm install supertest --save-dev
+```
+```
 npm init jest@latest
+```
