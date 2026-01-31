@@ -72,3 +72,8 @@ npm install morgan
 ```
 npm install cors cookie-parser
 ```
+
+
+npm i jsonwebtoken
+npm install zod
+npm install bcrypt
