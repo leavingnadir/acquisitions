@@ -78,3 +78,7 @@ npm i jsonwebtoken
 npm install zod
 npm install bcrypt
 npm i @arcjet/node @arcjet/inspect
+npm install --save-dev jest
+npm install -D cross-env
+npm install supertest --save-dev
+npm init jest@latest
